@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://dwilrs6jlc0r8"]
+
+[ext_resource type="Script" path="res://audio/SoundManager.gd" id="1_fio71"]
+[ext_resource type="AudioStream" uid="uid://5i4vdwwg48ks" path="res://audio/ui/click.wav" id="4_ab573"]
+[ext_resource type="AudioStream" uid="uid://m6ms1usdwubt" path="res://audio/ui/correct.wav" id="5_5qqk4"]
+[ext_resource type="AudioStream" uid="uid://d2ba6cc3hf27y" path="res://audio/ui/error.ogg" id="6_ep0ux"]
+
+[node name="SoundManager" type="Node"]
+script = ExtResource("1_fio71")
+
+[node name="MenuMusic" type="Node" parent="."]
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="MenuMusic"]
+
+[node name="UIAudio" type="Node" parent="."]
+
+[node name="Click" type="AudioStreamPlayer" parent="UIAudio"]
+stream = ExtResource("4_ab573")
+volume_db = 24.0
+
+[node name="Correct" type="AudioStreamPlayer" parent="UIAudio"]
+stream = ExtResource("5_5qqk4")
+
+[node name="Error" type="AudioStreamPlayer" parent="UIAudio"]
+stream = ExtResource("6_ep0ux")
+
+[node name="MainMenuAudio" type="Node" parent="."]
+
+[node name="WitchLaugh" type="AudioStreamPlayer" parent="MainMenuAudio"]
+
+[node name="Fire" type="AudioStreamPlayer" parent="MainMenuAudio"]
+
+[node name="Bubbles" type="AudioStreamPlayer" parent="MainMenuAudio"]
+
+[node name="GameMusic" type="Node" parent="."]
+
+[node name="GameMusic" type="AudioStreamPlayer" parent="GameMusic"]
+
+[node name="GameEnd" type="Node" parent="."]
+
+[node name="EndMusic" type="AudioStreamPlayer" parent="GameEnd"]

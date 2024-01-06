@@ -1,0 +1,21 @@
+~ this_is_a_node_title
+
+Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
+Nathan: Here are some choices.
+- First one
+	Nathan: You picked the first one.
+- Second one
+	Nathan: You picked the second one.
+- Start again => this_is_a_node_title
+- End the conversation => END
+Nathan: For more information see the online documentation.
+
+Immunity Bandit: These days, younglings always have their noses glued to their phones! Yet they [shake rate=10 level=5]do not[/shake] understand how to use them properly.
+Immunity Bandit: It is my mission to make you aware [shake rate=10 level=5]OF THE LIES[/shake]! [shake rate=10 level=5][color=#4FA4A5]A POOL OF LIES![/color][/shake]
+Immunity Bandit: I will show you two posts, side by side. It is your job to [color=#4FA4A5] analyse each[/color] and [color=#4FA4A5]identify which is true![/color]
+Immunity Bandit: Fail to do so and a [color=#E62222]red dot[/color] will appear on the top-right corner of your screen. [color=#E62222]You can only fail three times...[/color]
+Immunity Bandit: YOU CAN NOT LEAVE UNTIL YOU [shake rate=10 level=5]LEARN HOW TO IDENTIFY MISINFORMATION ON THE INTERNET[/shake], CHILD!
+Immunity Bandit: If ever in doubt, the internet can also be your friend.
+Immunity Bandit: Begin...
+
+=> END
