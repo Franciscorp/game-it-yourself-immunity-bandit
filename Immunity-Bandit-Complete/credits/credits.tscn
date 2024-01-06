@@ -1,0 +1,394 @@
+[gd_scene load_steps=33 format=3 uid="uid://dyerexrbkmw8o"]
+
+[ext_resource type="Script" path="res://credits/credits.gd" id="1_v8rb0"]
+[ext_resource type="Texture2D" uid="uid://db81g7oo2vfyr" path="res://credits/sprites/blood_1.png" id="2_0m60e"]
+[ext_resource type="Texture2D" uid="uid://piosvdpp3x5q" path="res://credits/textures/blood_texture2.png" id="2_bnasa"]
+[ext_resource type="Texture2D" uid="uid://l56ifse5tsla" path="res://main_menu/sprites/corona/virus_sprites.png" id="2_q2g1r"]
+[ext_resource type="Texture2D" uid="uid://cdtxoxhcv4j7n" path="res://credits/sprites/blood_2.png" id="3_virjd"]
+[ext_resource type="Texture2D" uid="uid://dxukew86h6lf7" path="res://credits/sprites/blood_3.png" id="4_62vk7"]
+[ext_resource type="Theme" uid="uid://b2g8ex2eim5as" path="res://util/game_theme.tres" id="6_v53xc"]
+[ext_resource type="Texture2D" uid="uid://8tdmr2jq48bm" path="res://main_menu/sprites/corona/Enemy2.2.png" id="7_cc5dl"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tb67x"]
+load_path = "res://.godot/imported/background2.png-9391d1dc87ba306ce5ba75ec8658e1f7.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xt6tm"]
+texture = SubResource("CompressedTexture2D_tb67x")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qs1b4"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(0, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6o71a"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(845, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p81yl"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(1690, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oj110"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(2535, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q87oo"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(3380, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mw3u4"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(4225, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sqh8e"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(3380, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tgs55"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(2535, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lvpuu"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(1690, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51dwr"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(845, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_74cqq"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(5915, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5im4c"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(6760, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5b4r2"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(7605, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fq523"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(8450, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_skiok"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(9295, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1rwa"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(8450, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b4wab"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(7605, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gbwvy"]
+atlas = ExtResource("2_q2g1r")
+region = Rect2(6760, 0, 845, 793)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jmfev"]
+atlas = ExtResource("7_cc5dl")
+region = Rect2(0, 0, 845, 793)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_e85pq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qs1b4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6o71a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p81yl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oj110")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q87oo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mw3u4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sqh8e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tgs55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lvpuu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51dwr")
+}],
+"loop": true,
+"name": &"angry",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_74cqq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5im4c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5b4r2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fq523")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_skiok")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1rwa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b4wab")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gbwvy")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jmfev")
+}],
+"loop": true,
+"name": &"pirate",
+"speed": 6.0
+}]
+
+[sub_resource type="Animation" id="Animation_ejkhq"]
+resource_name = "credits_animation"
+length = 6.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Panel/Virus:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [&"angry", &"idle"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = false
+tracks/1/path = NodePath("Panel/Virus:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-100, 650), Vector2(1380, 650)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Panel/Virus:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3, 4, 5, 6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-100, 580), Vector2(103.333, 700), Vector2(356.667, 580), Vector2(610, 700), Vector2(863.333, 580), Vector2(1116.67, 700), Vector2(1380, 580)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Panel/Blood1:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1320, 580), Vector2(-200, 580)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Panel/Blood1:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [6.28319, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Panel/Blood2:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(1.9, 2, 4, 6, 7.7),
+"transitions": PackedFloat32Array(1e-05, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-200, 635), Vector2(1356, 635), Vector2(800.667, 635), Vector2(305.333, 635), Vector2(-200, 635)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Panel/Blood2:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 6),
+"transitions": PackedFloat32Array(1, 0.63728),
+"update": 0,
+"values": [0.0, -6.28319]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Panel/Blood3:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(2, 3.9, 4, 6, 7.5),
+"transitions": PackedFloat32Array(1, 1e-05, 1, 1, 1),
+"update": 0,
+"values": [Vector2(268.667, 680), Vector2(-200, 680), Vector2(1306, 680), Vector2(777.333, 680), Vector2(298.667, 680)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Panel/Blood3:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 6),
+"transitions": PackedFloat32Array(1, 1.56917),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wvpvm"]
+_data = {
+"credits_animation": SubResource("Animation_ejkhq")
+}
+
+[node name="credits" type="Node"]
+script = ExtResource("1_v8rb0")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_xt6tm")
+
+[node name="BloodTexture2" type="Sprite2D" parent="Panel"]
+visible = false
+modulate = Color(1, 1, 1, 0.796078)
+position = Vector2(640, 640)
+scale = Vector2(0.664373, 0.631154)
+texture = ExtResource("2_bnasa")
+
+[node name="Blood1" type="Sprite2D" parent="Panel"]
+modulate = Color(0.552941, 0.552941, 0.552941, 1)
+position = Vector2(1320, 580)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_0m60e")
+
+[node name="Blood2" type="Sprite2D" parent="Panel"]
+modulate = Color(0.552941, 0.552941, 0.552941, 1)
+position = Vector2(305.333, 635)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_virjd")
+
+[node name="Blood3" type="Sprite2D" parent="Panel"]
+modulate = Color(0.552941, 0.552941, 0.552941, 1)
+position = Vector2(777.333, 680)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("4_62vk7")
+
+[node name="Virus" type="AnimatedSprite2D" parent="Panel"]
+modulate = Color(0.792157, 0.792157, 0.792157, 1)
+position = Vector2(-100, 580)
+scale = Vector2(0.05, 0.05)
+sprite_frames = SubResource("SpriteFrames_e85pq")
+animation = &"angry"
+autoplay = "idle"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -122.0
+offset_top = -300.0
+offset_right = 123.0
+offset_bottom = -246.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("6_v53xc")
+theme_override_constants/separation = 5
+
+[node name="BtnBackToMenu" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("6_v53xc")
+text = " RETURN TO MENU "
+
+[node name="CreditsAnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_wvpvm")
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 53.0
+grow_horizontal = 2
+theme = ExtResource("6_v53xc")
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.588235, 0.847059, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "
+
+A GAME DEVELOPED BY"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.588235, 0.847059, 1, 1)
+theme_override_font_sizes/font_size = 30
+text = "
+CAROLINA ARAÚJO
+FRANCISCO PINTO"
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.588235, 0.847059, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "
+CREATED IN THE CONTEXT OF PLAYMUTATION 2
+
+TO RAISE AWARENESS AND PROWESS
+IN HEALTHCARE  VIRUSES AND MICROBIOLOGY"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Panel/VBoxContainer/BtnBackToMenu" to="." method="_on_btn_back_to_menu_pressed"]

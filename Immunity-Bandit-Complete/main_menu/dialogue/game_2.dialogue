@@ -1,0 +1,21 @@
+~ game_2
+
+Immunity Bandit: Woaah!!! You are amazing at this, you have reached the second phase of infection!
+Immunity Bandit: You know, When I infect a T cell, I inject my genetic material into it, which tells the cell to start making copies of me.
+Immunity Bandit: These copies then go on to infect more T cells, and the cycle continues.
+Immunity Bandit: Do you have some ideia of what this causes to the human I host?
+- Well, if it attacks the bloodstream, it destroys the blood!
+	Immunity Bandit: Well, even tho I travel the bloodstream, I just attack the White blood Cells.
+	Immunity Bandit: The more cells i take control, the more the immunity system weakens.
+	Immunity Bandit: Making it harder for the body to fight off other infections.
+- I am sure it weakens the immunity system!
+	Immunity Bandit: Exactly! I take control over the T cells.
+	Immunity Bandit: As more and more T cells become infected, the immune system becomes weaker and weaker,
+	Immunity Bandit: Making it harder for the body to fight off other infections.
+
+Immunity Bandit: Once again, I remind you this is a simulation and no human was warn while making this game!
+Immunity Bandit: One more phase and I will teach you, how you can defend against me!
+do finish_dialog()
+
+=> END
+
