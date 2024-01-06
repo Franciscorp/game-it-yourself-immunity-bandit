@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" path="res://credits/credits.gd" id="1_v8rb0"]
 [ext_resource type="Texture2D" uid="uid://db81g7oo2vfyr" path="res://credits/sprites/blood_1.png" id="2_0m60e"]
+[ext_resource type="Texture2D" uid="uid://dy5rqbk1u46ug" path="res://main_menu/styles/background_1920.png" id="2_87tlh"]
 [ext_resource type="Texture2D" uid="uid://piosvdpp3x5q" path="res://credits/textures/blood_texture2.png" id="2_bnasa"]
 [ext_resource type="Texture2D" uid="uid://l56ifse5tsla" path="res://main_menu/sprites/corona/virus_sprites.png" id="2_q2g1r"]
 [ext_resource type="Texture2D" uid="uid://cdtxoxhcv4j7n" path="res://credits/sprites/blood_2.png" id="3_virjd"]
@@ -9,11 +10,8 @@
 [ext_resource type="Theme" uid="uid://b2g8ex2eim5as" path="res://util/game_theme.tres" id="6_v53xc"]
 [ext_resource type="Texture2D" uid="uid://8tdmr2jq48bm" path="res://main_menu/sprites/corona/Enemy2.2.png" id="7_cc5dl"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tb67x"]
-load_path = "res://.godot/imported/background2.png-9391d1dc87ba306ce5ba75ec8658e1f7.ctex"
-
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xt6tm"]
-texture = SubResource("CompressedTexture2D_tb67x")
+texture = ExtResource("2_87tlh")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qs1b4"]
 atlas = ExtResource("2_q2g1r")
