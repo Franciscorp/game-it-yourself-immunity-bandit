@@ -1,55 +1,63 @@
-# Game It Yourself: Learn About HIV and Coding 
+This activity seeks to foster knowledge about the human immune system and raise awareness for infectious diseases by playing and storytelling, developing and designing a 3D digital game. This program was created in the context of the research project PLAYMUTATION2 (UIDB/05460/2020) and is directed towards adolescents (12-18 years old) and young adults (19-35 years old) to promote the development of STEAM competencies: Science, Technology, Engineering, Arts and Mathematics. 
 
-## Project Description
-This project is being developed in the context of a research internship in the field of Communication Sciences, Informatics, and Computing, as part of the R&D project PLAYMUTATION2: Virus Epidemiologic-themed Digital Games and Youngsters' Attitudes to Viral Infections from DigiMedia.
+Immunity Bandit is a 3D game where the player has the the perspective of an HIV virus, navigating though the "endless" human bloodstream, while learning about the immune system and how the HIV replicates and infects T Helper Cells. The player must avoid obstacles and strategically maneuver to catch these cells and score points, ultimately reaching the game's final objective. The development of this game is carried out using Godot, a beginner-friendly game engine that does not require installation. Godot uses a simple, high-level, programming language, GDScript, and has updated documentation and active forums to discuss information.
 
-This repository will contain the source code of a simple platformer game with an HIV theme, from which there will be two versions. The first one is the complete, working version of the game, whereas the second will be deconstructed to serve as an educational tool to introduce foundational coding and game development principles to high school students.
+Activity created by [Francisco Pinto](https://github.com/Franciscorp).\
+Game developed by [Francisco Pinto](https://github.com/Franciscorp) and [Carolina Araújo](https://github.com/carolinaaraujo00).
 
+---
+## Repository organization
 
-## Concrete Goals 
-- Learn the basics of programming (if-else, for-cycle, counters);
-- Learn the basics of game development (sprites, sound design, head-up display (HUD));
-- Learn the basics of object-oriented programming (classes, objects, instances, methods, variables, properties, don't repeat yourself principle);
-- Learn about HIV (effects and prevention) and how it spreads, and AIDS. Emphasis on avoiding misinformation surrounding the virus and the disease;
-- Learn the basics of how to work with the Godot game engine.
+**├── Immunity Bandit Game**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Finish playable version of the game. 
 
+**├── COMPLETE_Immunity_Bandit**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fully functional project version of the game. 
 
-## Game 
-In this computer platformer game, players will navigate the bloodstream, simulating the spreading of HIV in a body. The objective is to capture T-helper cells, also known as CD4 cells, in order to replicate the virus, while evading the immune system's response.
-
-Inspired by games such as [Doodle Jump](https://doodle-jump.fandom.com/wiki/Doodle_Jump_Wiki) and [Pou's Sky Jump](https://pou.fandom.com/wiki/Sky_Jump), the gameplay consists of navigating through different body areas (levels) by leaping across diverse platforms, trying not to fall and spread the virus as far as possible (reach the end). The player must capture T-helper cells to replicate itself, and therefore the virus. Concurrently, the player must avoid enemies and adversities, such as white blood cells (the body's defence system), antiretroviral pills that combat the HIV virus and moving or disappearing platforms. The speed at which the platforms move will increase progressively, intensifying the challenge as players ascend higher.
-
-Upon reaching specific score milestones, players will earn achievements that unlock informative health facts about HIV and AIDS. This aims to disprove misinformation and foster understanding about the virus and the associated illness.
-
-The selection of this game type was driven by its straightforward gameplay and mechanics, enabling students to concentrate on intricacies such as player movement, jump gravity, HUD updates, asset alterations triggered by specific events, achievements with health facts, and more.
-
-### Tutorial 
-Embedded within the game, the tutorial serves as the opening level, designed to facilitate the player's grasp of the fundamental gameplay mechanic – namely, platform jumping and capturing T-helper cells. 
-
-### HIV Detected
-Following the tutorial, the player is informed that the presence of HIV (themselves) has been detected within the system. This triggers the activation of defence mechanisms, including moving or disappearing platforms (blood cells and platelets) and medication, all of which contribute to heightened challenges for the player.
+**├── Workshop 4**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **├── game-it-yourself-immunity-bandit**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Game-It-Yourself Toolbox's incomplete version of the game for the workshop purposes.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **├── Game_It_Yourself_Level_3.pdf**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Game-It-Yourself Toolbox's Level 3 guided document.
 
 
-## Elements To Be Developed
-- HUD
-  - Score (number of platforms jumped on);
-  - Number of HIV replicas (number of captured T helper cells);
-  - Pup-up achievements (based on the number of replicas). 
- 
-- Gameplay
-  - Automatic jump (the player does not have to press or trigger any key to initiate this movement);
-  - Movement in the x-axis (left-right) by mouse input (moving the pointer in such direction), A-D keys or < > keys (**TO BE DETERMINED**: give the option to rebind);
-  - Simple platforms;
-  - Moving platforms;
-  - Disappearing platforms (they fade after the player jumps on them);
-  - Capture T helper cells (the HIV replicates itself and fades out of the screen);
-  - Falling pills and white blood cells that collide with the player (**TO BE DETERMINED**: the effect this has on the gameplay);
-  - Progressively increase the speed at which the platforms traverse the screen vertically;
-  - Wrap-around screen (by moving off of one side of the screen, the player reappears on the opposite side);
-  - Show educational health information about HIV and AIDS at the end of each run based on the achievements earned.
 
-- Menu
-  - Sound volume;
-  - Mouse sensitivity;
-  - Key remapping;
-  - Difficulty control (**TO BE DETERMINED**: what exactly can be enabled/disabled in order to control the level of difficulty).
+---
+## Immunity Bandit
+
+This game involves players in an activity designed to foster knowledge about the human immune system and raise awareness for infectious diseases.
+
+The game starts with a small introduction of the HIV virus and how it travels around the human body through storytelling.
+
+Next comes the gameplay, and endless runner type of game, just like [Subway Surfers](https://subwaysurf.fandom.com/wiki/Subway_Surfers_Wiki). Where the player plays as the virus and has to catch T Helper Cells to acquire points and replicate himself while avoiding Pills, an imaginary obstacle that represents in a simple way the human fighting the virus.
+
+The game is divided in three stages:
+Stage 1 - 90 Points - What type of cells HIV infects and what do they do.
+Stage 2 - 170 Points - How HIV replicates and its consequences.
+Stage 3 and Final - 260 Points - How to stay protected against viruses and HIV
+
+Keys:
+Arrows - Left and Right
+Up arrow - Jump
+
+---
+**Workshop 4 of the Game-It-Yourself Toolbox** seeks to continue to impart fundamental concepts of game development and object-oriented programming through guided exercises to reconstruct missing pieces and mechanics of the game. These exercises include:  
+
+- Familiarization with Godot's interface, scenes and node-based system;
+- Learn the different components that compose a 3D game world such as:
+  - Ligthning: Use Directional light and Spotlights to illuminate the game world;
+  - Camera: Control the player's point of view;
+  - World Envirionment: Defines the overall lighting and atmosphere of the game world;
+- Import 3D models to Godot Game Engine:
+  - Understand and use Mesh Instance 3D to represent the 3D model graphically in the world space;
+  - Understand the use Static Bodies for 3D Models  
+  - Understand and manipulate the different types of collision shapes and adapt to the 3D Model;
+- 
+- Managing transitions between scenes;
+- Generate new **fake** healthcare-related social media posts and import images into the game;
+- Understand and manipulate different types of data (boolean, string, integer, float, Texture2D [native to Godot]) and data structures (array);
+- Understand and use logic structures to control the flow of code execution (selection, i.e. if-else conditions);
+- Update and display score;
+- Add the participant's name to the game's credits;
+- Design a custom sprite sheet, and create and add to the game an AnimatedSprite2D that animates the aforementioned sprite sheet;
+- Export the game.
