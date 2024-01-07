@@ -32,9 +32,9 @@ The game starts with a small introduction of the HIV virus and how it travels ar
 Next comes the gameplay, and endless runner type of game, just like [Subway Surfers](https://subwaysurf.fandom.com/wiki/Subway_Surfers_Wiki). Where the player plays as the virus and has to catch T Helper Cells to acquire points and replicate himself while avoiding Pills, an imaginary obstacle that represents in a simple way the human fighting the virus.
 
 The game is divided in three stages:
-Stage 1 - 90 Points - What type of cells HIV infects and what do they do.
-Stage 2 - 170 Points - How HIV replicates and its consequences.
-Stage 3 and Final - 260 Points - How to stay protected against viruses and HIV
+- Stage 1 - 90 Points - What type of cells HIV infects and what do they do.
+- Stage 2 - 170 Points - How HIV replicates and its consequences.
+- Stage 3 and Final - 260 Points - How to stay protected against viruses and HIV
 
 Keys:
 - Left and Right Arrows: Move Left and Right
