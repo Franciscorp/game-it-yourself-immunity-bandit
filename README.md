@@ -37,8 +37,8 @@ Stage 2 - 170 Points - How HIV replicates and its consequences.
 Stage 3 and Final - 260 Points - How to stay protected against viruses and HIV
 
 Keys:
-Arrows - Left and Right
-Up arrow - Jump
+- Left and Right Arrows: Move Left and Right
+- Up arrow: Jump
 
 ---
 **Workshop 4 of the Game-It-Yourself Toolbox** seeks to continue to impart fundamental concepts of game development and object-oriented programming through guided exercises to reconstruct missing pieces and mechanics of the game. These exercises include:  
