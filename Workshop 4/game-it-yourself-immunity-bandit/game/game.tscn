@@ -1,0 +1,58 @@
+[gd_scene load_steps=12 format=3 uid="uid://dgrwodd5b7k0u"]
+
+[ext_resource type="Script" path="res://game/game.gd" id="1_ns12h"]
+[ext_resource type="PackedScene" uid="uid://h35qu4cn16h4" path="res://game/game_objects/basic_wall.tscn" id="2_wurdb"]
+[ext_resource type="PackedScene" uid="uid://2iknv3b58lss" path="res://game/transition_screens/dead_screen.tscn" id="3_4goey"]
+[ext_resource type="PackedScene" uid="uid://dbh0ml4hhrdqu" path="res://game/character/player.tscn" id="4_3kxs6"]
+[ext_resource type="PackedScene" uid="uid://fnwcofwww1nf" path="res://game/game_objects/red_cell.tscn" id="5_nqdj6"]
+[ext_resource type="Script" path="res://game/world_spawn.gd" id="7_jvfxb"]
+[ext_resource type="PackedScene" uid="uid://b0udrxy5b2ojh" path="res://HUD/hud.tscn" id="8_bn1ld"]
+[ext_resource type="Texture2D" uid="uid://jvsmx6ae04oq" path="res://game/models/materials/background.png" id="9_spi8l"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_tx7i7"]
+panorama = ExtResource("9_spi8l")
+
+[sub_resource type="Sky" id="Sky_rhcjk"]
+sky_material = SubResource("PanoramaSkyMaterial_tx7i7")
+
+[sub_resource type="Environment" id="Environment_hmaf8"]
+background_mode = 2
+sky = SubResource("Sky_rhcjk")
+sky_rotation = Vector3(1.309, -1.58825, 0)
+
+[node name="Game" type="Node3D" node_paths=PackedStringArray("player", "hud")]
+script = ExtResource("1_ns12h")
+player = NodePath("Player")
+hud = NodePath("HUD")
+
+[node name="HUD" parent="." instance=ExtResource("8_bn1ld")]
+
+[node name="DeadScreen" parent="." instance=ExtResource("3_4goey")]
+visible = false
+
+[node name="WorldSpawn" type="Node3D" parent="." node_paths=PackedStringArray("game")]
+unique_name_in_owner = true
+script = ExtResource("7_jvfxb")
+basic_wall_scene = ExtResource("2_wurdb")
+red_cell_scene = ExtResource("5_nqdj6")
+game = NodePath("..")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0.469472, -0.882948, 0, 0.882948, 0.469472, 1, 2.05213e-08, -3.85949e-08, -5, 3, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_hmaf8")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0.642788, -0.766044, 0, 0.766044, 0.642788, 1, 2.80971e-08, -3.34849e-08, -4.52709, 4, 0)
+light_energy = 3.0
+spot_range = 18.991
+spot_angle = 35.0
+
+[node name="Player" parent="." instance=ExtResource("4_3kxs6")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.5, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5, 0)
+light_energy = 3.0
+shadow_enabled = true

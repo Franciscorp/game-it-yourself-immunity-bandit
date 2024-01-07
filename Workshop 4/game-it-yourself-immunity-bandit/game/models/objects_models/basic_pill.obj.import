@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bon8idf1dfkjo"
+path="res://.godot/imported/basic_pill.obj-4e79720e3e413fe137aca57167a22b95.mesh"
+
+[deps]
+
+files=["res://.godot/imported/basic_pill.obj-4e79720e3e413fe137aca57167a22b95.mesh"]
+
+source_file="res://game/models/objects_models/basic_pill.obj"
+dest_files=["res://.godot/imported/basic_pill.obj-4e79720e3e413fe137aca57167a22b95.mesh", "res://.godot/imported/basic_pill.obj-4e79720e3e413fe137aca57167a22b95.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://dbh0ml4hhrdqu"]
 
 [ext_resource type="Script" path="res://game/character/Player.gd" id="1_do434"]
-[ext_resource type="Texture2D" path="res://game/models/materials/virus_DefaultMaterial_baseColor.png" id="2_eltl4"]
+[ext_resource type="Texture2D" uid="uid://d1qn8nv1mblv3" path="res://game/models/materials/virus_DefaultMaterial_baseColor.png" id="2_eltl4"]
 [ext_resource type="ArrayMesh" uid="uid://c01al0sfs6j23" path="res://game/models/objects_models/virus.obj" id="3_rbn0b"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_20wm4"]

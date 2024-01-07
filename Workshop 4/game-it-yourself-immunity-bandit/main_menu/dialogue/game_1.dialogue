@@ -1,0 +1,21 @@
+~ game_1
+
+Immunity Bandit: Congratulations! You reached the first phase of infection!
+Immunity Bandit: You see, the human body is like a big city with millions of cells running around doing their jobs. 
+Immunity Bandit: And I'm like a tiny ninja, sneaking through the streets, stealing cells and making them my home.
+Immunity Bandit: But do you know what kinda of Cells I can infect?
+- I am sure you infect White Blood Cells!
+	Immunity Bandit: You are correct, my clever friend! I do indeed infect white blood cells, also known as T cells. These cells are the main soldiers of your immune system!
+	Immunity Bandit: They are responsible for fighting off infections.
+	Immunity Bandit: When I infect a T cell, I inject my genetic material into it, which tells the cell to start making copies of me.
+- I think it is the Red Blood Cells
+	Immunity Bandit: Sadly that is the wrong answer. ":(" 
+	Immunity Bandit: I infect White Blood Cells, also known as T cells. These cells are the main soldiers of your immune system!
+	Immunity Bandit: They are responsible for fighting off infections.
+	Immunity Bandit: When I infect a T cell, I inject my genetic material into it, which tells the cell to start making copies of me.
+
+Immunity Bandit: Keep gaining points and I will tell you how you can avoid me!
+do finish_dialog()
+
+=> END
+

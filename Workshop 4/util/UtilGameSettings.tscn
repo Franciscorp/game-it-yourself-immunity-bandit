@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dw8fcawj4mrim"]
-
-[ext_resource type="Script" path="res://util/util_game_settings.gd" id="1_2xhp8"]
-
-[node name="UtilGameSettings" type="Node"]
-script = ExtResource("1_2xhp8")

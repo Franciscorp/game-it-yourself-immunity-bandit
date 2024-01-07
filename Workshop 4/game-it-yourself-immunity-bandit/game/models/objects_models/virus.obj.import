@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c01al0sfs6j23"
+path="res://.godot/imported/virus.obj-b827f8c9cf6eafe91cf059c358392b04.mesh"
+
+[deps]
+
+files=["res://.godot/imported/virus.obj-b827f8c9cf6eafe91cf059c358392b04.mesh"]
+
+source_file="res://game/models/objects_models/virus.obj"
+dest_files=["res://.godot/imported/virus.obj-b827f8c9cf6eafe91cf059c358392b04.mesh", "res://.godot/imported/virus.obj-b827f8c9cf6eafe91cf059c358392b04.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
