@@ -52,12 +52,6 @@ Up arrow - Jump
   - Understand and use Mesh Instance 3D to represent the 3D model graphically in the world space;
   - Understand the use Static Bodies for 3D Models  
   - Understand and manipulate the different types of collision shapes and adapt to the 3D Model;
-- 
-- Managing transitions between scenes;
-- Generate new **fake** healthcare-related social media posts and import images into the game;
-- Understand and manipulate different types of data (boolean, string, integer, float, Texture2D [native to Godot]) and data structures (array);
-- Understand and use logic structures to control the flow of code execution (selection, i.e. if-else conditions);
-- Update and display score;
-- Add the participant's name to the game's credits;
-- Design a custom sprite sheet, and create and add to the game an AnimatedSprite2D that animates the aforementioned sprite sheet;
-- Export the game.
+- Learn to instantiate scenes (game objects) with unique properties;
+- Understand and use input mapping to create the player controls for movements;
+- Learn to apply gravity to the player on jump command;
