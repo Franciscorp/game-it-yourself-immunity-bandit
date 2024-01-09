@@ -19,21 +19,24 @@ func _ready():
 
 func _physics_process(delta):
 	# On left, right, up key the action makes the virus move to the lane appointed
-	if Input.is_action_just_pressed("ui_left"):
-		if current_lane_position  != 0:
-			current_lane_position  -= 1
-	if Input.is_action_just_pressed("ui_right"):
-		if current_lane_position  != 2:
-			current_lane_position  += 1
-	# If the virus is not "touching" the floor, it can't jump
-	if Input.is_action_just_pressed("ui_up") && is_on_floor():
-			velocity.y = JUMP_VEL
+	# TODO move_left
+#		if current_lane_position != 0:
+#			current_lane_position  -= 1
 	
+	# TODO move_right
+#		if current_lane_position != 2:
+#			current_lane_position  += 1
+	
+	# If the virus is not "touching" the floor, it can't jump
+	# TODO jump
+#			velocity.y = JUMP_VEL
+
 	# Lerp is a function that smooths the transition when changing lane
 	# Lerp work with movement over time
-	position.z = lerpf(position.z, lane_positions[current_lane_position ], delta * 15)
-	velocity.y -= gravity * delta
+#	position.z = lerpf(position.z, lane_positions[current_lane_position ], delta * 15)
+	# Makes player fall and hit the floor
+#	velocity.y -= gravity * delta
 	# Moves the body based on velocity
-	move_and_slide()
-		
+#	move_and_slide()
+	pass
 		

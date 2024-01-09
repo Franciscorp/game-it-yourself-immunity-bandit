@@ -8,6 +8,8 @@ const BASIC_PILL = 2
 
 # Here we associate a scene to the object to be spawned in the game
 @export var basic_wall_scene: PackedScene = null
+# TODO add basic_pill_scene
+# TODO add t_cell_scene
 @export var red_cell_scene: PackedScene = null
 
 
@@ -140,30 +142,23 @@ func spawn_wall(x_spawn_position):
 	world_objects.add_child(wall)
 	
 	
-	#	var t_cell = t_cell_scene.instantiate()
-#	t_cell.position.x = x_spawn_position
-#	t_cell.position.z = lane_positions_z[z_lane_position]
-#	t_cell.position.y = t_cell_lane_positions_y[z_lane_position]
-#
-#	world_objects.add_child(t_cell)
-#
-#	if !t_cell.t_cell_captured.is_connected(game.player_scored):
-#		t_cell.t_cell_captured.connect(game.player_scored)
-	
-	#	var pill = basic_pill_scene.instantiate()
-#	pill.position.x = x_spawn_position
-#	pill.position.z = lane_positions_z[z_lane_position]
-#	pill.position.y = lane_positions_y[z_lane_position]
-#	world_objects.add_child(pill)
-#	if !pill.pill_contact.is_connected(game.life_lost):
-#		pill.pill_contact.connect(game.life_lost)
-	
-	
 # Function that spawns a T Cell in the game scene 
 # Each spawn T Cell spawns at the end of last position added
 # Spawns in the correct X, height and Z
 # Connects t cell spawned to the game score signal
 func spawn_t_cell(x_spawn_position, z_lane_position):
+# TODO instantiate T CELL
+
+# TODO Choose position to spawn
+#	t_cell.position.x = x_spawn_position
+#	t_cell.position.z = lane_positions_z[z_lane_position]
+#	t_cell.position.y = t_cell_lane_positions_y[z_lane_position]
+
+# TODO Add T Cell to the world scene
+
+# TODO connect signal that identifies collision to win points to the player
+#	if !t_cell.t_cell_captured.is_connected(game.player_scored):
+#		t_cell.t_cell_captured.connect(game.player_scored)
 	pass
 		
 	
@@ -172,7 +167,20 @@ func spawn_t_cell(x_spawn_position, z_lane_position):
 # Spawns in the correct X, height and Z
 # Connects Pill spawned to the game score signal to lose a life	
 func spawn_pill(x_spawn_position, z_lane_position):
+# TODO instantiate pill
+
+# TODO Choose position to spawn	
+#	pill.position.x = x_spawn_position
+#	pill.position.z = lane_positions_z[z_lane_position]
+#	pill.position.y = lane_positions_y[z_lane_position]
+
+# TODO Add Pill to the world scene
+
+# TODO connect signal that identifies collision to win points to the player
+#	if !pill.pill_contact.is_connected(game.life_lost):
+#		pill.pill_contact.connect(game.life_lost)
 	pass
+	
 	
 # Function that spawns a red_cell in the game scene 
 # Each spawn red_cell spawns at the end of last position added
